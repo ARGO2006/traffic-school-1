@@ -42,10 +42,9 @@
     "level1": {
         "id": "level1",
         "mimeType": "application/mkcd-tilemap",
-        "data": "MTAwYzAwMGEwMDAxMDEwMTA3MDEwMTAxMDEwNzAxMDEwMTAxMDEwMTA1MDEwMTAxMDEwNTAxMDEwMTAxMDEwMTA1MDEwMTAxMDEwNTAxMDEwMTAxMDEwMTA1MDEwMTAxMDEwNTAxMDEwMTA4MDIwMjA0MDIwMjAyMDIwNDAyMDIwYTA5MDIwMjAzMDIwMjAyMDIwMzAyMDIwYjAxMDEwMTA1MDEwMTAxMDEwNTAxMDEwMTAxMDEwMTA1MDEwMTAxMDEwNTAxMDEwMTAxMDEwMTA1MDEwMTAxMDEwNTAxMDEwMTAxMDEwMTA2MDEwMTAxMDEwNjAxMDEwMTIyMDIyMjIyMjAyMjIyMDIyMjIyMjAyMjIyMDIyMjIyMjAyMjIyMDIyMjIyMjAyMjAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDIyMDIyMjIyMjAyMjIyMDIyMjIyMjAyMjIyMDIyMjIyMjAyMjIyMDIyMjIyMjAyMg==",
+        "data": "MTAwYzAwMGEwMDBiMGIwYjA2MGIwYjBiMGIwNjBiMGIwYjBiMGIwYjA0MGIwYjBiMGIwNDBiMGIwYjBiMGIwYjA0MGIwYjBiMGIwNDBiMGIwYjBiMGIwYjA0MGIwYjBiMGIwNDBiMGIwYjA3MDEwMTAzMDEwMTAxMDEwMzAxMDEwOTA4MDEwMTAyMDEwMTAxMDEwMjAxMDEwYTBiMGIwYjA0MGIwYjBiMGIwNDBiMGIwYjBiMGIwYjA0MGIwYjBiMGIwNDBiMGIwYjBiMGIwYjA0MGIwYjBiMGIwNDBiMGIwYjBiMGIwYjA1MGIwYjBiMGIwNTBiMGIwYjIyMDIyMjIyMjAyMjIyMDIyMjIyMjAyMjIyMDIyMjIyMjAyMjIyMDIyMjIyMjAyMjAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDIyMDIyMjIyMjAyMjIyMDIyMjIyMjAyMjIyMDIyMjIyMjAyMjIyMDIyMjIyMjAyMg==",
         "tileset": [
             "myTiles.transparency16",
-            "sprites.castle.tilePath5",
             "sprites.vehicle.roadHorizontal",
             "sprites.vehicle.roadIntersection3",
             "sprites.vehicle.roadIntersection1",
@@ -55,7 +54,8 @@
             "myTiles.tile3",
             "myTiles.tile4",
             "myTiles.tile6",
-            "myTiles.tile7"
+            "myTiles.tile7",
+            "sprites.castle.tileGrass1"
         ],
         "displayName": "level1"
     },

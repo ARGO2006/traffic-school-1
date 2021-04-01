@@ -20,7 +20,7 @@ namespace myTiles {
     helpers._registerFactory("tilemap", function(name: string) {
         switch(helpers.stringTrim(name)) {
             case "level1":
-            case "level1":return tiles.createTilemap(hex`0c000a0001010107010101010701010101010105010101010501010101010105010101010501010101010105010101010501010108020204020202020402020a09020203020202020302020b010101050101010105010101010101050101010105010101010101050101010105010101010101060101010106010101`, img`
+            case "level1":return tiles.createTilemap(hex`0c000a000b0b0b060b0b0b0b060b0b0b0b0b0b040b0b0b0b040b0b0b0b0b0b040b0b0b0b040b0b0b0b0b0b040b0b0b0b040b0b0b07010103010101010301010908010102010101010201010a0b0b0b040b0b0b0b040b0b0b0b0b0b040b0b0b0b040b0b0b0b0b0b040b0b0b0b040b0b0b0b0b0b050b0b0b0b050b0b0b`, img`
 2 2 2 . 2 2 2 2 . 2 2 2 
 2 2 2 . 2 2 2 2 . 2 2 2 
 2 2 2 . 2 2 2 2 . 2 2 2 
@@ -31,7 +31,7 @@ namespace myTiles {
 2 2 2 . 2 2 2 2 . 2 2 2 
 2 2 2 . 2 2 2 2 . 2 2 2 
 2 2 2 . 2 2 2 2 . 2 2 2 
-`, [myTiles.transparency16,sprites.castle.tilePath5,sprites.vehicle.roadHorizontal,sprites.vehicle.roadIntersection3,sprites.vehicle.roadIntersection1,sprites.vehicle.roadVertical,myTiles.tile1,myTiles.tile2,myTiles.tile3,myTiles.tile4,myTiles.tile6,myTiles.tile7], TileScale.Sixteen);
+`, [myTiles.transparency16,sprites.vehicle.roadHorizontal,sprites.vehicle.roadIntersection3,sprites.vehicle.roadIntersection1,sprites.vehicle.roadVertical,myTiles.tile1,myTiles.tile2,myTiles.tile3,myTiles.tile4,myTiles.tile6,myTiles.tile7,sprites.castle.tileGrass1], TileScale.Sixteen);
         }
         return null;
     })
